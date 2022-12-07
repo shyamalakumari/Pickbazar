@@ -1,0 +1,134 @@
+img{
+    height: 80px;
+    width: 200px;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.pick{
+    margin-top: 2rem;
+}
+.pick1{
+    margin-top: 1.8rem;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pick2{
+    margin-top: 1.8rem;
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+   margin-top: 1.8rem;
+    width: 200px;
+    height: 40px;
+    color: green;
+}
+
+
+
+
+
+
+
+
+.productCard{
+ height: auto;
+ width: 300px;
+ border: 1px solid;
+ border-radius: 10px;
+ box-shadow: 5px 5px 10px  grey;
+/* margin-right: 18rem;
+margin-top: 4rem; */
+
+}
+.productCard:hover{
+    transform: translateY(-3px);
+}
+
+.image{
+height: 200px;
+width: 200px;
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.App{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    row-gap: 1rem;
+   /* justify-content: space-evenly; */
+   column-gap: 2rem;
+   margin-left: 2rem;
+  
+}
+.minusSymbol,.addSymbol{
+display:flex ;
+justify-content: center;
+align-items: center;
+height: 30px;
+width: 30px;
+border: 1px solid;
+background-color: rgb(252, 245, 245);
+font-size: 20px;
+
+}
+.addText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 200px;
+    border: 1px solid;
+    background-color: green;
+    color: white;
+}
+
+.priceContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.priceContainer{
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    align-items: center;
+}
+.addToCart{
+    display:flex ;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.discount{
+    margin-left: 16.7rem;
+    background-color: green;
+    border-radius: 6px;
+    color: white;
+    position: absolute;
+}
